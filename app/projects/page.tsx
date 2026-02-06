@@ -1,7 +1,6 @@
 import Link from "next/link"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import SandalwoodCalculator from "@/components/sandalwood-calculator"
 import { ArrowRight, Leaf } from "lucide-react"
 
 export const metadata = {
@@ -165,14 +164,7 @@ export default function Projects() {
         </div>
       </section>
 
-      {/* Sandalwood & Land Appreciation Calculator Section */}
-      <section className="py-20 bg-gradient-to-b from-secondary/5 to-background">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold mb-6 text-center">Sandalwood & Land Appreciation Calculator</h2>
-          <p className="text-muted-foreground text-center mb-6">Choose a project, adjust the assumptions, and see estimated returns per share.</p>
-          <SandalwoodCalculator />
-        </div>
-      </section>
+      
 
       <Footer />
     </div>
